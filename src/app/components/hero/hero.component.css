@@ -1,0 +1,136 @@
+.hero-layout {
+  display: grid;
+  grid-template-columns: 1.3fr 0.9fr;
+  gap: 28px;
+  align-items: center;
+  min-height: calc(100vh - 110px);
+}
+
+.hero-copy h1 {
+  font-family: 'Outfit', sans-serif;
+  font-size: clamp(3.2rem, 7vw, 5.7rem);
+  line-height: 0.95;
+  margin: 18px 0 12px;
+}
+
+.hero-copy h2 {
+  font-size: clamp(1.25rem, 2.6vw, 2rem);
+  color: var(--primary);
+  margin-bottom: 18px;
+  max-width: 720px;
+}
+
+.hero-copy p {
+  max-width: 720px;
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 30px 0;
+}
+
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.hero-meta div {
+  min-width: 180px;
+}
+
+.hero-meta strong,
+.label {
+  display: block;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.hero-meta span,
+.hero-card p,
+.hero-card a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.hero-card {
+  padding: 30px;
+}
+
+.status-line {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(34, 197, 94, 0.12);
+  border: 1px solid rgba(34, 197, 94, 0.25);
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 8px rgba(34, 197, 94, 0.12);
+}
+
+.hero-card-block + .hero-card-block {
+  margin-top: 24px;
+}
+
+.tags span {
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+@media (max-width: 900px) {
+  .hero-layout {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+}
+
+
+.profile-visual {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.avatar-circle {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.35), rgba(34, 197, 94, 0.20));
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.profile-visual p {
+  margin: 0;
+  font-size: 0.95rem;
+}
