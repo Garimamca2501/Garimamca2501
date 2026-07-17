@@ -1,0 +1,33 @@
+.project-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.project-head h3 {
+  margin: 0 0 6px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.5rem;
+}
+
+.project-head p,
+.project-head span,
+.tech-stack,
+.project-card li {
+  color: var(--muted);
+}
+
+.project-card ul {
+  margin: 18px 0 0;
+  padding-left: 20px;
+  display: grid;
+  gap: 10px;
+}
+
+@media (max-width: 640px) {
+  .project-head {
+    flex-direction: column;
+  }
+}

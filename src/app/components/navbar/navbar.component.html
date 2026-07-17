@@ -1,0 +1,26 @@
+<header class="site-header">
+  <div class="container nav-shell glass-card">
+    <a class="brand" href="#home">GT</a>
+
+    <div class="nav-actions">
+      <button class="theme-btn" type="button" (click)="toggleTheme()" aria-label="Toggle theme">
+        {{ isDark ? '☀️' : '🌙' }}
+      </button>
+
+      <button class="menu-btn" type="button" (click)="toggleMenu()" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <nav class="nav-links" [class.open]="menuOpen">
+      <a href="#about" (click)="closeMenu()">About</a>
+      <a href="#skills" (click)="closeMenu()">Skills</a>
+      <a href="#experience" (click)="closeMenu()">Experience</a>
+      <a href="#projects" (click)="closeMenu()">Projects</a>
+      <a href="#certificates" (click)="closeMenu()">Certificates</a>
+      <a href="#contact" (click)="closeMenu()">Contact</a>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,32 @@
+.timeline-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.timeline-head h3 {
+  margin: 0 0 6px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.5rem;
+}
+
+.timeline-head p,
+.timeline-head span,
+.timeline-item li {
+  color: var(--muted);
+}
+
+.timeline-item ul {
+  margin: 0;
+  padding-left: 20px;
+  display: grid;
+  gap: 10px;
+}
+
+@media (max-width: 640px) {
+  .timeline-head {
+    flex-direction: column;
+  }
+}

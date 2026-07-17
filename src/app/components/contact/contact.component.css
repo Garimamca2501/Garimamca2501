@@ -1,0 +1,34 @@
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: center;
+}
+
+.contact-layout h3 {
+  margin: 0 0 10px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.8rem;
+}
+
+.contact-list {
+  display: grid;
+  gap: 14px;
+}
+
+.contact-list a,
+.contact-list span {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 1.05rem;
+}
+
+.contact-list a:hover {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .contact-layout {
+    grid-template-columns: 1fr;
+  }
+}

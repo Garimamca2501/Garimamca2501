@@ -1,0 +1,25 @@
+<section class="section" id="skills">
+  <div class="container">
+    <h2 class="section-title">Skills & Tools</h2>
+    <p class="section-subtitle">
+      My stack is centered around backend engineering, structured architecture, API-first design,
+      and practical deployment workflows.
+    </p>
+
+    <div class="grid-two">
+      <div class="glass-card skill-panel">
+        <h3>Technical Skills</h3>
+        <div class="tags skill-tags">
+          <span *ngFor="let skill of technicalSkills">{{ skill }}</span>
+        </div>
+      </div>
+
+      <div class="glass-card skill-panel">
+        <h3>Core Strengths</h3>
+        <div class="tags skill-tags">
+          <span *ngFor="let item of strengths">{{ item }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
