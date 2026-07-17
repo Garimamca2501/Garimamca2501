@@ -15,6 +15,27 @@ npm start
 npm run build
 ```
 
+<<<<<<< HEAD
+=======
+## Deploy to Netlify
+
+- Push this project to GitHub.
+- In Netlify, import the repository.
+- Build command: `npm run build`
+- Publish directory: `dist/garima-portfolio/browser`
+
+The included `_redirects` file and `netlify.toml` handle Angular routing.
+
+
+## Next improvements included
+
+- Theme toggle added in navbar
+- Resume download button added in hero section
+- GitHub button placeholder added
+- Profile image placeholder card added
+- Simple fade-up animation added
+
+>>>>>>> 6ab59258dd01e35bb8e29b56df439601648d667c
 
 - 👋 Hi, I’m @Garima2501
 - 👀 I’m interested in ...
