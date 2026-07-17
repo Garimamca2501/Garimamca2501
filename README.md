@@ -15,28 +15,6 @@ npm start
 npm run build
 ```
 
-## Deploy to Netlify
-
-- Push this project to GitHub.
-- In Netlify, import the repository.
-- Build command: `npm run build`
-- Publish directory: `dist/garima-portfolio/browser`
-
-The included `_redirects` file and `netlify.toml` handle Angular routing.
-
-
-## Next improvements included
-
-- Theme toggle added in navbar
-- Resume download button added in hero section
-- GitHub button placeholder added
-- Profile image placeholder card added
-- Simple fade-up animation added
-
-## Important
-
-Replace `https://github.com/your-github-username` with your real GitHub profile link.
-If resume download does not work, copy your resume PDF into `src/assets/` with the name `Garima_Tiwari_Resume.pdf`.
 
 - 👋 Hi, I’m @Garima2501
 - 👀 I’m interested in ...
