@@ -33,10 +33,6 @@ The included `_redirects` file and `netlify.toml` handle Angular routing.
 - Profile image placeholder card added
 - Simple fade-up animation added
 
-## Important
-
-Replace `https://github.com/your-github-username` with your real GitHub profile link.
-If resume download does not work, copy your resume PDF into `src/assets/` with the name `Garima_Tiwari_Resume.pdf`.
 
 - 👋 Hi, I’m @Garima2501
 - 👀 I’m interested in ...
