@@ -15,6 +15,8 @@ npm start
 npm run build
 ```
 
+<<<<<<< HEAD
+=======
 ## Deploy to Netlify
 
 - Push this project to GitHub.
@@ -33,10 +35,7 @@ The included `_redirects` file and `netlify.toml` handle Angular routing.
 - Profile image placeholder card added
 - Simple fade-up animation added
 
-## Important
-
-Replace `https://github.com/your-github-username` with your real GitHub profile link.
-If resume download does not work, copy your resume PDF into `src/assets/` with the name `Garima_Tiwari_Resume.pdf`.
+>>>>>>> 6ab59258dd01e35bb8e29b56df439601648d667c
 
 - 👋 Hi, I’m @Garima2501
 - 👀 I’m interested in ...
